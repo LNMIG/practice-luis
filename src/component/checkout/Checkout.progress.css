@@ -1,0 +1,50 @@
+.progressLine {
+    width: 100%;
+    height: 5rem;
+    background-color: #eeeeee;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    font-weight: bolder;
+    color: #000000;
+
+}
+.progressLine .stepsWrapper {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.progressLine .linear {
+    width: 100%;
+    height: 0.5rem;
+    background: #f26323;
+}
+
+.progressLine .wrapper {
+
+    gap: 0.75rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.progressLine .wrapper .circle {
+    width: 3rem;
+    height: 3rem;
+    background: #f26323;
+    border-radius: 1.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.5rem;
+    color: #ffffff
+}
