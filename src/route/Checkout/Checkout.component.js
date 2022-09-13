@@ -6,7 +6,7 @@ class Checkout extends SourceCheckout {
     render() {
         let checkoutStep = this.props.checkoutStep
         let checkoutSteps = Object.keys(this.stepMap) 
-        console.log(this.stepMap)
+
         return (
             <main block="Checkout">
                 <CheckoutProgress step={checkoutStep} steps={checkoutSteps}/>
